@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6k0036/v1
+canonical_location: https://kanripo.org/bkk/KR6k0036/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 根本說一切有部苾芻尼戒經
+  identifiers:
+    alt_id:
+    - T24n1455
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T24/T24n1455.xml
+    old_id: T24n1455
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0036_000.yaml, hash: 'sha256:1220739389095c2b05ac39283933b96c80b2d2736b5668e860572fb958f45160'}
+  - {seq: 1, filename: KR6k0036_001.yaml, hash: 'sha256:f47e52e8f95b3d1a46b98bcd2ea34a8fcd9f60dcbd616a6a1836b41ff2237e7c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6k0036_001.markers.yaml, hash: 'sha256:d8df1559e8b181a2fbb8a5bc7b372992005be5dbef92d0a4326fec01ec90d353'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0036_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11840
+  label: 根本說一切有部苾芻尼戒經
+  type: juan
+  level: 1
+hash: sha256:6a0db0e12ed341a1fe142c911603b4c7a7dcaefad3cdbf8daa33de532779313e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
