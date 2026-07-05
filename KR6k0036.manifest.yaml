@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0036_000.yaml, hash: 'sha256:1220739389095c2b05ac39283933b96c80b2d2736b5668e860572fb958f45160'}
-  - {seq: 1, filename: KR6k0036_001.yaml, hash: 'sha256:f47e52e8f95b3d1a46b98bcd2ea34a8fcd9f60dcbd616a6a1836b41ff2237e7c'}
+  - {seq: 1, filename: KR6k0036_001.yaml, hash: 'sha256:e2ab591f7dd1d578cd80cbe8d0e13955b5a059dcf29bda650b576d816098047d'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0036_001.markers.yaml, hash: 'sha256:d8df1559e8b181a2fbb8a5bc7b372992005be5dbef92d0a4326fec01ec90d353'}
+  - {seq: 0, role: markers, filename: assets/KR6k0036_000.markers.yaml, hash: 'sha256:5487a38b5061069ec646e78743c7e93650f9305a18b42ec347ad146fe510057a'}
+  - {seq: 1, role: markers, filename: assets/KR6k0036_001.markers.yaml, hash: 'sha256:28735556ead6b1f245b25f1aac5d3e31637292a46e531f88303282d4521db58f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 根本說一切有部苾芻尼戒經
   type: juan
   level: 1
-hash: sha256:6a0db0e12ed341a1fe142c911603b4c7a7dcaefad3cdbf8daa33de532779313e
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:9fb71dbb416575f536b595fc507fe9f40fe7b5294584ea2b8333aef0dfcff108
