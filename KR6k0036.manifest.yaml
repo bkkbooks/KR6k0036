@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6k0036/v1
 canonical_location: https://kanripo.org/bkk/KR6k0036/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 根本說一切有部苾芻尼戒經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0036_000.yaml, hash: 'sha256:1220739389095c2b05ac39283933b96c80b2d2736b5668e860572fb958f45160'}
-  - {seq: 1, filename: KR6k0036_001.yaml, hash: 'sha256:e2ab591f7dd1d578cd80cbe8d0e13955b5a059dcf29bda650b576d816098047d'}
+  - {seq: 1, filename: KR6k0036_001.yaml, hash: 'sha256:5e1371541b31493637d9dcd0b0a0905e7d3211d5eca19cbfdeb9c17ec1a5168c'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6k0036_000.markers.yaml, hash: 'sha256:5487a38b5061069ec646e78743c7e93650f9305a18b42ec347ad146fe510057a'}
-  - {seq: 1, role: markers, filename: assets/KR6k0036_001.markers.yaml, hash: 'sha256:28735556ead6b1f245b25f1aac5d3e31637292a46e531f88303282d4521db58f'}
+  - {seq: 1, role: markers, filename: assets/KR6k0036_001.markers.yaml, hash: 'sha256:705bbabeb098414973f986a1c14d4095766c7df844af77b9f49fe2740ff64f09'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 根本說一切有部苾芻尼戒經
   type: juan
   level: 1
-hash: sha256:9fb71dbb416575f536b595fc507fe9f40fe7b5294584ea2b8333aef0dfcff108
+hash: sha256:c82e422c93059885e6de7dcc02f26eafb97ee71886146d72db6366e81e434ec7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
